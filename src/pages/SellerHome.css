@@ -1,0 +1,52 @@
+.seller-dashboard {
+  padding: 40px;
+  background: #f4f6f8;
+  min-height: 100vh;
+}
+
+.dashboard-title {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #333;
+  text-align: center;
+}
+
+.dashboard-cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: white;
+  padding: 30px 40px;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 250px;
+  text-align: center;
+}
+
+.card h3 {
+  font-size: 1.2rem;
+  color: #444;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 2rem;
+  color: #222;
+  font-weight: bold;
+}
+
+.card.orders {
+  border-left: 6px solid #007bff;
+}
+
+.card.revenue {
+  border-left: 6px solid #28a745;
+}
+
+.card.products {
+  border-left: 6px solid #ffc107;
+}

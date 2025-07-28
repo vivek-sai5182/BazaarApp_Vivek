@@ -1,0 +1,43 @@
+.shopper-profile-edit-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 25px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.shopper-profile-edit-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.shopper-profile-edit-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.shopper-profile-edit-container input {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.shopper-profile-edit-container button {
+  padding: 10px;
+  background-color: #2d89ff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.shopper-profile-edit-container button:hover {
+  background-color: #1c6ed2;
+}

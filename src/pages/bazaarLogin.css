@@ -1,0 +1,102 @@
+/* src/pages/bazaarLogin.css */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.bazaar-login-body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #ece9e6, #ffffff);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('./yellow-white-background.png');
+  background-size: cover;
+  position: relative;
+}
+
+/* Container */
+.container {
+  text-align: center;
+  padding: 40px;
+  background: linear-gradient(45deg, yellow, white);
+  border-radius: 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+.container h1 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.tagline {
+  font-size: 1.1rem;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+/* Buttons */
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.role-button {
+  padding: 15px 30px;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  transition: 0.3s ease;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.shopper {
+  background-color: #007bff;
+}
+
+.seller {
+  background-color: #28a745;
+}
+
+.role-button:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+
+/* Logo and Text */
+.logo {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 100px;
+  height: 100px;
+  z-index: 1000;
+}
+
+.logoname {
+  position: absolute;
+  top: 50px;
+  left: 130px;
+  font-family: monospace, sans-serif;
+  color: #222;
+  z-index: 10;
+  letter-spacing: 1px;
+}
+
+.logotag {
+  position: absolute;
+  top: 85px;
+  left: 130px;
+  font-family: 'Courier New', Courier, monospace, sans-serif;
+  color: #222;
+  z-index: 10;
+  letter-spacing: 1px;
+}

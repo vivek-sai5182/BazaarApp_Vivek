@@ -1,0 +1,49 @@
+.profile-edit-container {
+  max-width: 500px;
+  margin: 60px auto;
+  padding: 30px 40px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.profile-edit-container h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #333;
+}
+
+.profile-edit-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-edit-container input {
+  margin-bottom: 20px;
+  padding: 12px 15px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 16px;
+  transition: border-color 0.2s;
+}
+
+.profile-edit-container input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.profile-edit-container button {
+  padding: 12px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.profile-edit-container button:hover {
+  background-color: #0056b3;
+}
